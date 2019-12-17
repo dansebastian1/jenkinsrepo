@@ -1,0 +1,113 @@
+ping google.exe
+ping google.ro
+sudo yum install nano
+sudo yum install git
+git --version
+git config --global user.name "dansebastian1"
+git config --global user.email "dsebastiand@yahoo.com"
+git config --list
+git config --global user.name "dansebastian"
+git config --global user.email "dsebastiand@yahoo.com"
+git config --list
+mkdir -p ~/git/developme
+cd ~/git/development
+git config --global user.name "dansebastian1"
+echo "# testrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/dansebastian1/testrepo.git
+git push -u origin master
+git clone https://github.com/dansebastian1/testrepo.git
+cat > myfile1.txt
+ls -l myfyle1.txt
+ls -l myfile1.txt
+git commit -m "First file"
+git push origin https://github.com/dansebastian1/testrepo.git
+git push origin master
+git pull
+git checkout -b br1
+cat >myfile2.txt
+git add .
+git commit -m "Adding second file"
+git push origin br1
+git checkout master
+git pull
+git merge br1
+git status
+git push
+git status
+history -w ./history_dumitru_dan_sebastian_txt
+history -w ./history_dumitru_dan_sebastian.txt
+pwd
+yum install -y java-1.8.0-openjdk-devel
+sudo yum install -y java-1.8.0-openjdk-devel
+java -version
+cd /usr/local/src
+wget http://www-us.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+sudo wget http://www-us.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+tar -xf apache-maven-3.5.4-bin.tar.gz
+wget http://www-us.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+sudo wget http://www-us.apache.org/dist/maven/maven-
+3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz
+sudo yum install wget
+sudo wget http://www-us.apache.org/dist/maven/maven-
+sudo wget http://www-us.apache.org/dist/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz
+sudo tar -xf apache-maven-3.6.2-bin.tar.gz
+sudo mv apache-maven-3.6.2/apache-maven/
+sudo mv apache-maven-3.6.2/ apache-maven/
+cd /etc/profile.d/
+sudo nano maven.sh
+sudo chmod +x maven.sh
+source /etc/profile.d/maven.sh
+mvn --version
+mvn archetype:generate
+mvn --version
+cd /home/sebi_the_dark_skull/
+ls
+mvn archetype:generate
+wget https://drive.google.com/drive/folders/1QRh4PbVKKyD7R0vroCMX49IUwnTEaASh
+wget "https://drive.google.com/drive/folders/1QRh4PbVKKyD7R0vroCMX49IUwnTEaASh"
+wget "https://drive.google.com/open?id=1v6m3T63CVXYJkmukicD-mJ381quyUMeV"
+pwd
+ls
+cd src/main/java
+ls
+cp ./devops.zip /src/main/java
+cp ./devops.zip /src/main/java/devops.zip
+cp ./devops.zip /usr/local/src/main/java/devops.zip
+cp ./devops.zip /usr/local/src/main/java/
+ls -l
+sudo apt-get install unzip
+cd usr/local
+ls
+sudo get install unzip
+unzip
+sudo yum install unzip
+sudo unzip /devops.zip /usr/local/src/main/java
+sudo unzip /devops /usr/local/src/main/java
+ls
+cp ./Customer.java /usr/local/src/main/java/
+cp /Customer.java /usr/local/src/main/java/
+cp Customer.java /usr/local/src/main/java/
+pwd
+cp /home/sebi_the_dark_skull/Customer.java /usr/local/src/main/java/
+cp /home/sebi_the_dark_skull/Customer.java /usr/local/src/main/java/Customer.java
+ls
+cp Customer.java devops-course/src/main/java/devops/course/
+cp HelloWorld.java devops-course/src/main/java/devops/course/
+cp Main.java devops-course/src/main/java/devops/course/
+cd devops-course/pom.xml
+cd devops-course/
+ls
+nano pom.xml
+mvn compile
+nano pom.xml
+mvn compile
+mvn package shade:shade
+ls
+cd target
+ls
+history -w /dumitru_dan_sebastian_lab2.txt
+ls
+history -w ./dumitru_dan_sebastian_lab2.txt
